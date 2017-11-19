@@ -1,4 +1,4 @@
-```
+
 #coding:utf-8
 # 1/高阶函数 map()
 ## 为list每个值执行相同函数操作,只有一个参数
@@ -60,4 +60,3 @@ def sort_string(s1,s2):     # 实现不区分大小写的字符串排序
         return 1
     return 0
 print sorted(string_sort,sort_string)
-```
