@@ -47,3 +47,5 @@ correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction,"float"))
 
 print(sess.run(accuracy, feed_dict={x:mnist.test.images,y_:mnist.test.labels}))
+
+# 最终输出结果 0.9131
