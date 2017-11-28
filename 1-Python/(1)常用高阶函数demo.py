@@ -4,7 +4,9 @@
 ## 为list每个值执行相同函数操作,只有一个参数
 def f(x):
     return x*x
-print map(f,[1,2,3,4,5,6]) # 得到一个新list
+print map(f,[1,2,3,4,5,6])            # 得到一个新list
+
+print list(map(str,[1,2,3,4,5,6]))    # str是自带函数，将内容设置为string类型
 
 def format_name(name):
     return name[:1].upper() + name[1:].lower()
