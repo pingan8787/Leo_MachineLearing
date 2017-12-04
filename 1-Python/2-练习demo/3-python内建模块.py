@@ -83,9 +83,23 @@
 # q.appendleft('y')             # 从前面入栈
 # print(q)                      # deque(['y', 'a', 'b', 'c', 'x'])
 
-## defaultdict
-from collections import defaultdict
-dd = defaultdict(lambda:'N/A')
-dd['key1'] = ['abc']
-print(dd['key1'])             # 'abc'
-print(dd['key2'])             # 'N/A'
+# ## defaultdict
+# from collections import defaultdict
+# dd = defaultdict(lambda:'N/A')
+# dd['key1'] = ['abc']
+# print(dd['key1'])             # 'abc'
+# print(dd['key2'])             # 'N/A'
+
+# ## OrderedDict
+# from collections import OrderedDict
+# d = dict([('a',1),('b',2),('c',3)])
+# print(d)            # dict的Key是无序的 {'a': 1, 'b': 2, 'c': 3}
+# od = OrderedDict([('a',1),('b',2),('c',3)])
+# print(od)           # OrderedDict的Key是有序的 OrderedDict([('a', 1), ('b', 2), ('c', 3)])
+
+# ## Counter
+# from collections import Counter
+# c = Counter()
+# for ch in 'programing':
+#     c[ch] = c[ch]+1
+# print(c)              # Counter({'r': 2, 'g': 2, 'p': 1, 'o': 1, 'a': 1, 'm': 1, 'i': 1, 'n': 1})
