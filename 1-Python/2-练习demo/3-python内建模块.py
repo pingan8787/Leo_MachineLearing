@@ -103,3 +103,11 @@
 # for ch in 'programing':
 #     c[ch] = c[ch]+1
 # print(c)              # Counter({'r': 2, 'g': 2, 'p': 1, 'o': 1, 'a': 1, 'm': 1, 'i': 1, 'n': 1})
+
+# # 三、base64模块
+# import base64
+# base64.b64encode(b'binary\x00string')      # 编码 b'YmluYXJ5AHN0cmluZw=='
+# base64.b64decode(b'YmluYXJ5AHN0cmluZw==')  # 解码 b'binary\x00string'
+# base64.b64encode(b'i\xb7\x1d\xfb\xef\xff') # 编码 b'abcd++//'
+# base64.urlsafe_b64encode(b'i\xb7\x1d\xfb\xef\xff')  # 编码 b'abcd--__'
+# base64.urlsafe_b64decode('abcd--__')                # 解码 b'i\xb7\x1d\xfb\xef\xff'
