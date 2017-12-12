@@ -1,6 +1,8 @@
 ### demo 添加层操作 ###
 import tensorflow as tf
 import numpy as np
+## 常用绘图工具  需要自行安装
+import matplotlib.pyplot as plt 
 
 # 定义一个函数功能(添加神经层)
 def add_layer(inputs,in_size,out_size,activation_function=None):
@@ -50,7 +52,28 @@ init = tf.initialize_all_variables()
 sess = tf.Session()
 sess.run(init)
 
+# 生成图片框
+fig = plt.figure()
+ax = fig.add_subplot(1,1,1)
+## 以点的形式传递数据上来
+ax.scatter(x_data,y_data)
+## 让程序show以后不暂停
+plt.ion()
+## 显示测试数据
+plt.show()
+
+
 for i in range(1000):
     sess.run(train_step,feed_dict={xs:x_data,ys:y_data})
     if i % 50 == 0:
-        print(sess.run(loss,feed_dict={xs:x_data,ys:y_data}))
+        # print(sess.run(loss,feed_dict={xs:x_data,ys:y_data}))
+        try:
+            ## 清除上一条线
+            ax.lines.remove(lines[0])
+        except Exception:
+            pass
+        prediction_value = sess.run(prediction,feed_dict={xs:x_data})
+        ## 绘制一条曲线， plot(x坐标，y坐标,颜色,线宽)
+        lines = ax.plot(x_data,prediction_value,'r-',lw=5)
+        ## 暂停0.1秒再继续
+        plt.pause(0.1)
