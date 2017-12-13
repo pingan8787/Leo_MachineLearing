@@ -1,4 +1,4 @@
-### demo 添加层操作 ###
+### demo 结果可视化操作 ###
 import tensorflow as tf
 import numpy as np
 ## 常用绘图工具  需要自行安装
