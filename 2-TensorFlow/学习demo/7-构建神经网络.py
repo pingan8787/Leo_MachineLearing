@@ -54,3 +54,27 @@ for i in range(1000):
     sess.run(train_step,feed_dict={xs:x_data,ys:y_data})
     if i % 50 == 0:
         print(sess.run(loss,feed_dict={xs:x_data,ys:y_data}))
+
+'''
+2017-12-13 08:02:58.363431: I C:\tf_jenkins\home\workspace\rel-win\M\windows\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX
+1.39356
+0.0206713
+0.00924416
+0.00580435
+0.00458689
+0.00392329
+0.00355698
+0.00334804
+0.00320742
+0.0030966
+0.00300877
+0.00293238
+0.00287308
+0.00283059
+0.00279129
+0.00275653
+0.00273278
+0.00271518
+0.0026993
+0.00268441
+'''
