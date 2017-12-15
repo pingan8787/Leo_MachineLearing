@@ -70,6 +70,12 @@ n2[ (n1 != 'leo')]      # array([[-1.13528941,  0.16400326,  0.69102992],
 n3 = (n1 == 'leo') & (n1 == 'joe')  # array([ False,  False, False,  False], dtype=bool)
 n3 = (n1 == 'leo') | (n1 == 'joe')  # array([ True,  True, False,  True], dtype=bool)
 
+### 还可以通过布尔值设置值
+n2[n1 == 'leo'] = 3     # array([[ 3.        ,  3.        ,  3.        ],
+                        #        [-2.81166546, -0.82847677, -1.21673666],
+                        #        [ 2.71631543,  0.35552634, -0.45955992],
+                        #        [ 3.        ,  3.        ,  3.        ]])
+
 # 三、一些常用方法API
 ## 中文API手册地址：http://python.usyiyi.cn/translate/NumPy_v111/genindex.html
 s1 = [[1,2,3],[4,5,6]]
