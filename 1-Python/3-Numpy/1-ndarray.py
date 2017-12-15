@@ -91,9 +91,9 @@ np.shape(m1)            # (2, 3)
 ## 沿指定轴计算算术平均值
 ## (@ a:数组 , axis:指定轴 , dtype:平均值类型 ....)
 o1 = np.array([[1, 2], [3, 4]])
-np.mean(o1)              # 2.5  (1+2+3+4)/4 = 2.5
-np.mean(o1,axis=0)       # array([2.,3.])    0：指定纵轴
-np.mean(o1,axis=1)       # array([1.5,3.5])  1：指定横轴
+np.mean(o1)             # 2.5  (1+2+3+4)/4 = 2.5
+np.mean(o1,axis=0)      # array([2.,3.])    0：指定纵轴
+np.mean(o1,axis=1)      # array([1.5,3.5])  1：指定横轴
 
 
 # 四、numpy数据类型
@@ -112,3 +112,18 @@ np.mean(o1,axis=1)       # array([1.5,3.5])  1：指定横轴
 ## unicode_     ##  U          ## 固定长度的unicode类型(字节数由平台##
 ##                                决定),跟字符串定义一样(如U10  )   ##
 ####################################################################
+
+# 五、转换类型
+## 常常使用 astype 方法显式转换成其他类型
+t1 = np.array([1,2,3,4,5])
+t1.dtype                # dtype('int32')
+t2 = t1.astype(np.float64)
+t2.dtype                # dtype('float64')
+t3 = np.array([3.1,-1.2,-2.6,0.5,12.9,10.1])
+t4 = t3.astype(np.int32)# array([ 3, -1, -2,  0, 12, 10])
+t3.dtype                # dtype('float64')
+t4.dtype                # dtype('int32')
+t5 = np.array(['1.25','-9.6','42'],dtype = np.string_)
+t5.dtype                # dtype('S4')
+t6 = t5.astype(float)
+t6.dtype                # dtype('float64')
