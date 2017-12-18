@@ -15,3 +15,4 @@ b1 = np.random.randn(5,5)    # 这三个结果值太长，就不写出来
 b2 = b1.T.dot(b1)
 b3 = inv(b2)
 b4 = b2.dot(inv(b2))
+q,r = np.qr.(b2)
