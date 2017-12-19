@@ -39,3 +39,25 @@ a2[['c','a','d']]
 ### a   -5
 ### d    6
 ### dtype: int64
+
+### 4-Series看成字典
+'b' in a2                     # True
+'e' in a2                     # False
+
+### 5-通过python字典创建Series
+a3 = {'a':12,'b':13,'c':14,'d':15}   # {'a': 12, 'b': 13, 'c': 14, 'd': 15}
+a4 = Series(a3)
+### a    12
+### b    13
+### c    14
+### d    15
+### dtype: int64
+### 如果传入这样一个字典，就会这种情况
+a5 = {'f','a','b','c'}
+a6 = Series(a3,index=a5)
+### f     NaN
+### c    14.0
+### b    13.0
+### a    12.0
+### dtype: float64
+### dtype: float64
