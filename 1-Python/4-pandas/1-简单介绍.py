@@ -60,4 +60,73 @@ a6 = Series(a3,index=a5)
 ### b    13.0
 ### a    12.0
 ### dtype: float64
+
+### 6-含有运算和判断
+a7 = Series({'d':6,'c':3,'a':-2,'b':6})
+### a   -2
+### b    6
+### c    3
+### d    6
+### dtype: int64
+a7[a7 > 0]
+### b    6
+### c    3
+### d    6
+### dtype: int64
+a7 * 2
+### a    -4
+### b    12
+### c     6
+### d    12
+### dtype: int64
+np.exp(a7)
+### a      0.135335
+### b    403.428793
+### c     20.085537
+### d    403.428793
 ### dtype: float64
+
+
+# 三、DataFrame
+## DataFrame是一个表格型数据结构，含有一组有序的列，每列可以是不同类型的值。
+## 可以看成由Series组成的字典。
+d1 = {'state':['a','b','c','d','e'],
+'year':[2011,2012,2013,2014,2015],
+'pop':[1.1,1.5,1.9,2.1,2.3]}
+d2 = DataFrame(d1)
+###    pop state  year
+### 0  1.1     a  2011
+### 1  1.5     b  2012
+### 2  1.9     c  2013
+### 3  2.1     d  2014
+### 4  2.3     e  2015
+
+### 1.指定列来排序
+d3 = DataFrame(d1,columns=['year','state','pop'])
+###    year state  pop
+### 0  2011     a  1.1
+### 1  2012     b  1.5
+### 2  2013     c  1.9
+### 3  2014     d  2.1
+### 4  2015     e  2.3
+
+### 2.获取列名
+d3.columns       #  Index(['year', 'state', 'pop'], dtype='object')
+
+### 3.通过类似字典标记或属性获取DataFrame的列为一个Series
+d3['year']      # 或者 d3.year
+### 0    2011
+### 1    2012
+### 2    2013
+### 3    2014
+### 4    2015
+### Name: year, dtype: int64
+
+### 4.给一列赋值
+d3['state'] = 'haha'
+###    year state  pop
+### 0  2011  haha  1.1
+### 1  2012  haha  1.5
+### 2  2013  haha  1.9
+### 3  2014  haha  2.1
+### 4  2015  haha  2.3
