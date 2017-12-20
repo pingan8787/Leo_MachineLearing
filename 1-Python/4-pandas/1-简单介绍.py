@@ -170,7 +170,7 @@ e1 = Series(range(3),index=['a','b','c'])
 ### dtype: int32
 e2 = e1.index          # Index(['a', 'b', 'c'], dtype='object')
 e2[1:]                 # Index(['b', 'c'], dtype='object')
-
-
+e2[1] = 'd'            # 直接报错 !!!!Index对象是不可修改的
+### index的属性方法：append/diff/intersection/union/isin/delete/drop/insert/is_monotonic/is_unique/unique
 
 ### 更多使用方法，查看书本
