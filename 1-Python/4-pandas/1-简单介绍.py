@@ -130,3 +130,36 @@ d3['state'] = 'haha'
 ### 2  2013  haha  1.9
 ### 3  2014  haha  2.1
 ### 4  2015  haha  2.3
+
+### 5.嵌套字典的数据格式
+### 外层字典的键作为列
+### 内层键作为行索引
+d3 = {
+    'title1':{2001:2.3,2002:2.9},
+    'title2':{2000:2.1,2005:2.5}
+}
+d4 = DataFrame(d3)
+###       title1  title2
+### 2000     NaN     2.1
+### 2001     2.3     NaN
+### 2002     2.9     NaN
+### 2005     NaN     2.5
+### 也可以对结果转置
+d4.T
+###         2000  2001  2002  2005
+### title1   NaN   2.3   2.9   NaN
+### title2   2.1   NaN   NaN   2.5
+
+### 6.设置name属性
+### 如果设置了DataFrame的index和columns的name属性，那么这些信息会直接被显示出来：
+d4.index.name='header1';d4.columns.name='header2'
+### header2  title1  title2
+### header1
+### 2000        NaN     2.1
+### 2001        2.3     NaN
+### 2002        2.9     NaN
+### 2005        NaN     2.5
+
+
+
+### 更多使用方法，查看书本
