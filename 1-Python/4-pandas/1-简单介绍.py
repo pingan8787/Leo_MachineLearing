@@ -160,6 +160,17 @@ d4.index.name='header1';d4.columns.name='header2'
 ### 2002        2.9     NaN
 ### 2005        NaN     2.5
 
+# 四、索引对象
+### pandas的索引对象负责管理轴标签和其他元数据（比如轴名称等）。
+### 构建Series或DataFrame时，所用到的任何数组或其他序列的标签都会被转换成一个Index：
+e1 = Series(range(3),index=['a','b','c'])
+### a    0
+### b    1
+### c    2
+### dtype: int32
+e2 = e1.index          # Index(['a', 'b', 'c'], dtype='object')
+e2[1:]                 # Index(['b', 'c'], dtype='object')
+
 
 
 ### 更多使用方法，查看书本
