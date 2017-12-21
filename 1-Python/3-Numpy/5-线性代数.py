@@ -1,4 +1,5 @@
 # 一、线性代数
+## numpy线性代数API手册  python.usyiyi.cn/translate/NumPy_v111/reference/routines.linalg.html
 ## 计算矩阵乘法 dot函数
 import numpy as np
 
