@@ -13,9 +13,9 @@ a4 = np.dot(a1,np.ones(3))   # array([  6.,  15.])
 from numpy.linalg import inv,qr
 b1 = np.random.randn(5,5)    # 这三个结果值太长，就不写出来
 b2 = b1.T.dot(b1)
-b3 = inv(b2)
+b3 = inv(b2)                 # linalg.inv 计算矩阵的（乘法）逆。
 b4 = b2.dot(inv(b2))
-q,r = qr(b2)
+q,r = qr(b2)                 # linalg.qr 计算矩阵的qr因式分解。
 
 ### 更多常用的numpy.linalg函数查看手册
 ### diag/dot/trace/det/eig/inv/pinv/qr/svd/solve/lstsq/
