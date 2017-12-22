@@ -86,4 +86,10 @@ r1 = np.zeros((8,8),dtype=int)
 r1[1::2,::2] = 1  #1,3,5,7行 2,4,6列的元素设置为1
 r1[::2,1::2] = 1  
 
+2-min()和max()函数
+import numpy as np
+a2 = np.random.random((10,10))
+a2max,a2min = a2.max(),a2.min()
+
+
 更新中....
