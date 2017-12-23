@@ -1,3 +1,5 @@
+> 文章素材来源网络文章 http://blog.csdn.net/u012162613/article/details/42784403
+
 ## 一、初学与入门
 ### 1、初学者10题
 1-在python环境中导入numpy包，并命名为np
@@ -110,12 +112,59 @@ a4=(a4-a4min)/(a4max-a4min)
 5-矩阵点乘
 ```
 a5 = np.dot(np.ones((5,3)),np.ones((3,2)))
-array([[ 3.,  3.],
-       [ 3.,  3.],
-       [ 3.,  3.],
-       [ 3.,  3.],
-       [ 3.,  3.]])
+## array([[ 3.,  3.],
+##        [ 3.,  3.],
+##        [ 3.,  3.],
+##        [ 3.,  3.],
+##        [ 3.,  3.]])
 ```
 
+6-矩阵相加，5*5矩阵+1*5的向量，相当于每一行都加上1*5矩阵
+```
+a6 = np.zeros((5,5))
+a6 += np.arange(5)
+## array([[ 0.,  1.,  2.,  3.,  4.],
+##        [ 0.,  1.,  2.,  3.,  4.],
+##        [ 0.,  1.,  2.,  3.,  4.],
+##        [ 0.,  1.,  2.,  3.,  4.],
+##        [ 0.,  1.,  2.,  3.,  4.]])
+```
 
-更新中....
+7-linspace函数，在给定区间中生成均匀分布的给定个数。
+```
+a8 = np.linspace(0,10,11,endpoint=True,retstep=False)
+## array([  0.,   1.,   2.,   3.,   4.,   5.,   6.,   7.,   8.,   9.,  10.])
+## numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None)
+## 生成0~10之间均匀分布的11个数，包括0和1。
+## 若endpoint=False,则10不包括在里面。
+## 若retstep=False，会同时返回均匀区间中每两个数的间隔。
+```
+
+8-sort函数。调用random模块中的random函数生成10个随机数，然后sort排序。
+```
+a9 = np.random.random(10)  
+a9.sort()
+## array([ 0.00462968,  0.03209223,  0.07702007,  0.1968538 ,  0.31196594,
+##         0.37648172,  0.45438051,  0.56967879,  0.70055142,  0.76796064])
+```
+
+9-allclose函数，判断两个array在误差范围内是否相等
+```
+##  numpy.random.randint(low, high=None, size=None, dtype='l')
+##  numpy.allclose(a, b, rtol=1e-05, atol=1e-08, equal_nan=False)
+##  如果两个数组在元素级别在容差内相等，则返回True。
+b1 = np.random.randint(0,2,5)
+b2 = np.random.randint(0,2,5)
+b3 = np.allclose(b1,b2)
+## False
+```
+
+10-mean函数，求平均值
+```
+b4 = np.random.random(30)
+b5 = b4.mean()
+## 0.48059270596771703
+```
+
+## 文档手册
+[NumPy中文API手册](http://python.usyiyi.cn/translate/NumPy_v111/genindex.html)
