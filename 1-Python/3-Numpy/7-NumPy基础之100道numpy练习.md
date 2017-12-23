@@ -82,14 +82,40 @@ a9 = np.random.random((3,3))
 
 ### 2、入门级10题
 1-创建一个8*8的“棋盘”矩阵
+```
 r1 = np.zeros((8,8),dtype=int)
 r1[1::2,::2] = 1  #1,3,5,7行 2,4,6列的元素设置为1
 r1[::2,1::2] = 1  
+```
 
 2-min()和max()函数
+```
 import numpy as np
 a2 = np.random.random((10,10))
 a2max,a2min = a2.max(),a2.min()
+```
+
+3-函数tile(A,reps),reps即重复的次数，不仅可以是数字，还可以是array。比如构造棋盘矩阵：
+```
+a3 = np.tile(np.array([[0,1],[0,1]]),(4,4))
+```
+
+4-归一化，将矩阵规格化到0～1，即最小的变成0，最大的变成1，最小与最大之间的等比缩放。
+```
+a4 = np.random.random((5,5))
+a4max,a4min = a4.max(),a4.min()
+a4=(a4-a4min)/(a4max-a4min)
+```
+
+5-矩阵点乘
+```
+a5 = np.dot(np.ones((5,3)),np.ones((3,2)))
+array([[ 3.,  3.],
+       [ 3.,  3.],
+       [ 3.,  3.],
+       [ 3.,  3.],
+       [ 3.,  3.]])
+```
 
 
 更新中....
