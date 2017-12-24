@@ -29,12 +29,12 @@ Linux可以执行命令`sudo pip install scikit-learn` 安装。
 
 ### 2.1实验前准备
 ```
-## 本案例源代码
+## 本案例源代码  命令行执行
 $ wget http://labfile.oss.aliyuncs.com/courses/780/SourceCode.zip
 ```
 
 ```
-## 1.下载所需数据源
+## 1.下载所需数据源  命令行执行
 $ wget http://labfile.oss.aliyuncs.com/courses/780/WeatherData.zip
 ## unzip WeatherData.zip
 
@@ -43,7 +43,17 @@ cd Code
 cd WeatherAnalysis
 cd WeatherData
 
-## 3.引入数据
+
+```
+
+### 2.2单座城市气温变化图的绘制（这里以米兰为例）
+```
+## 引入模块
+import numpy as np
+import pandas as pd
+import datetime
+
+## 引入数据
 df_ferrara = pd.read_csv('ferrara_270615.csv')
 df_milano = pd.read_csv('milano_270615.csv')
 df_mantova = pd.read_csv('mantova_270615.csv')
@@ -60,6 +70,7 @@ df_faenza = pd.read_csv('faenza_270615.csv')
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from dateutil import parser
+
 
 ## 4.读取米兰的城市气象数据
 df_milano = pd.read_csv('milano_270615.csv')
@@ -92,14 +103,6 @@ fig
 由生成的图像可见，气温走势接近正弦曲线，从早上开始气温逐渐升高，最高温出现在下午两点到六点之间，随后气温逐渐下降，在第二天早上六点时达到最低值。  
 
 我们进行数据分析的目的是尝试解释是否能够评估海洋是怎样影响气温的，以及是否能够影响气温趋势，因此我们同时来看几个不同城市的气温趋势。这是检验分析方向是否正确的唯一方式。因此，我们选择三个离海最近以及三个离海最远的城市。    
-
-### 2.2单座城市气温变化图的绘制（这里以米兰为例）
-```
-## 引入模块
-import numpy as np
-import pandas as pd
-import datetime
-```
 
 ### 2.3离海最近的三座城市和最远的三座城市气温变化图的绘制
 ```
