@@ -1,5 +1,7 @@
 # 笔记内容根据《利用Python进行数据分析》整理。
 # 一、重新索引
+
+## 1.reindex，重新索引
 ## pandas对象的一个重要方法是reindex，作用是创建一个适应新索引的新对象
 a1 = Series([4.5,7.2,-5.3,3.6],index=['d','b','a','c'])
 a2 = a1.reindex(['a','b','c','d','e'])
@@ -34,6 +36,51 @@ a4.reindex(range(6),method='ffill')
 import numpy as np
 a5 = DataFrame(np.arange(9).reshape((3,3)),index=['a','c','d'],columns=['haha','hehe','heihei'])
 a6 = a5.reindex(['a','b','c','d'])
+###    haha  hehe  heihei
+### a   0.0   1.0     2.0
+### b   NaN   NaN     NaN
+### c   3.0   4.0     5.0
+### d   6.0   7.0     8.0
 ## 使用columns关键字重新索引列
 a7 = a5.reindex(columns=['heihei','hehe','haha'])
+###    heihei  hehe  haha
+### a       2     1     0
+### c       5     4     3
+### d       8     7     6
+## 同时对行和列重新索引，而插值只能按行应用（即轴0）
+a8 = a5.reindex(index=['a','b','c','d'],columns=['heihei','hehe','haha'],method='ffill')
+###    heihei  hehe  haha
+### a       2     1     0
+### b       2     1     0
+### c       5     4     3
+### d       8     7     6
 
+## reindex的参数有index/method/fill_value/limit/level/copy 具体查看书本
+
+## 2.loc，重新索引
+import numpy as np
+b1 = DataFrame(np.arange(9).reshape((3,3)),index=['a','c','d'],columns=['haha','hehe','heihei'])
+b2 = b1.loc[['a','b','c','d'],['heihei','hehe','haha']]
+# b2 = b1.ix[['a','b','c','d'],['heihei','hehe','haha']]
+## .ix方法弃用， 改用.loc或.iloc
+## 文档http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
+###    heihei  hehe  haha
+### a     2.0   1.0   0.0
+### b     NaN   NaN   NaN
+### c     5.0   4.0   3.0
+### d     8.0   7.0   6.0
+
+## 3.丢弃指定轴上的项
+### 使用drop方法，并返回删除后的新对象
+### 1)对于Series
+c1 = Series(np.arange(5.),index=['a','b','c','d','e'])
+c2 = c1.drop(['b','c','d'])
+### a    0.0
+### e    4.0
+### dtype: float64
+
+### 2)对于DataFrame
+c3 = DataFrame(np.arange(16).reshape((4,4)),index=['aa','bb','cc','dd'],columns=['a1','b1','c1','d1'])
+c4 = c3.drop(['aa','cc','dd'])
+###     a1  b1  c1  d1
+### bb   4   5   6   7
