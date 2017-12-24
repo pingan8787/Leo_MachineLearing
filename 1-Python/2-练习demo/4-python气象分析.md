@@ -15,6 +15,10 @@
 ### 1.2实验环境
 * python2.7
 * spyder
+* scikit-learn
+[Windows下安装scikit-learn](http://blog.csdn.net/caoeryingzi/article/details/20448223)
+[Linux下安装scikit-learn](http://blog.csdn.net/xiaocanxccc/article/details/48950469)
+Linux可以执行命令`sudo pip install scikit-learn` 安装。
 
 ### 1.4 适合人群
 本课程难度为中等，适合具有 `Python` 基础的用户，如果对 `matplotlib` 模块有了解会更快的上手。
