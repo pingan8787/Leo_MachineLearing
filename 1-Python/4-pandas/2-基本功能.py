@@ -81,6 +81,120 @@ c2 = c1.drop(['b','c','d'])
 
 ### 2)对于DataFrame
 c3 = DataFrame(np.arange(16).reshape((4,4)),index=['aa','bb','cc','dd'],columns=['a1','b1','c1','d1'])
+### 删除指定行
 c4 = c3.drop(['aa','cc','dd'])
 ###     a1  b1  c1  d1
 ### bb   4   5   6   7
+### 删除指定列
+c5 = c3.drop('a1',axis=1)
+c6 = c3.drop(['a1','b1'],axis=1)
+
+## 4.索引、选取和过滤
+### 1)对于Series：
+d1 = Series(np.arange(4.),index=['a','b','c','d'])
+d1['b']               # 1.0
+d1[ 1 ]               # 1.0
+d1[2:4]
+### c    2.0
+### d    3.0
+### dtype: float64
+d1[['a','c','d']]
+### a    0.0
+### c    2.0
+### d    3.0
+### dtype: float64
+d1[[1,3]]
+### b    1.0
+### d    3.0
+### dtype: float64
+d1[d1<2]
+### a    0.0
+### b    1.0
+### dtype: float64
+d1['b':'c']   # 和python的切片不同，在于这里是包含末端的。
+### b    1.0
+### c    2.0
+### dtype: float64
+d1['b':'c'] = 5
+### a    0.0
+### b    5.0
+### c    5.0
+### d    3.0
+### dtype: float64
+
+### 2)对于DataFrame：
+d2 = DataFrame(np.arange(16).reshape((4,4)),index=['a1','b1','c1','d1'],columns=['aa','bb','cc','dd'])
+###     aa  bb  cc  dd
+### a1   0   1   2   3
+### b1   4   5   6   7
+### c1   8   9  10  11
+### d1  12  13  14  15
+d2['bb']
+### a1     1
+### b1     5
+### c1     9
+### d1    13
+### Name: bb, dtype: int32
+d2[['aa','bb']]
+###     aa  bb
+### a1   0   1
+### b1   4   5
+### c1   8   9
+### d1  12  13
+d2[:2]
+###     aa  bb  cc  dd
+### a1   0   1   2   3
+### b1   4   5   6   7
+d2[d2['bb']>2]
+###     aa  bb  cc  dd
+### b1   4   5   6   7
+### c1   8   9  10  11
+### d1  12  13  14  15
+d2<5
+###        aa     bb     cc     dd
+### a1   True   True   True   True
+### b1   True  False  False  False
+### c1  False  False  False  False
+### d1  False  False  False  False
+d2[d2<5]=0
+###     aa  bb  cc  dd
+### a1   0   0   0   0
+### b1   0   5   6   7
+### c1   8   9  10  11
+### d1  12  13  14  15
+
+# 5.算术运算和数据对齐
+## 1)对于Series:
+## 对不同索引对象进行算术运算，若相加时存在不同索引对，则结果就是该索引对的并集
+e1 = Series([7.3,-2.5,3.4,1.5],index=['a','c','d','e'])
+e2 = Series([2.1,3.6,1.2,-3.1,1.0],index=['a','c','e','f','g'])
+e1                       e2
+### a    7.3             ### a    2.1
+### c   -2.5             ### c    3.6
+### d    3.4             ### e    1.2
+### e    1.5             ### f    -3.1
+### dtype: float64       ### g    1.0
+e1+e2
+### a    9.4
+### c    1.1
+### d    NaN
+### e    2.7
+### f    NaN
+### g    NaN
+### dtype: float64
+
+## 2)对于DataFrame:
+e3 = DataFrame(np.arange(9.).reshape((3,3)),columns=list('bcd'),index=['aa','bb','cc'])
+e4 = DataFrame(np.arange(12.).reshape((4,3)),columns=list('bde'),index=['aa','bb','cc','gg'])
+e3                      e4
+###      b    c    d    ###      b     d     e
+###aa  0.0  1.0  2.0    ###aa  0.0   1.0   2.0
+###bb  3.0  4.0  5.0    ###bb  3.0   4.0   5.0
+###cc  6.0  7.0  8.0    ###cc  6.0   7.0   8.0
+                        ###gg  9.0  10.0  11.0
+e3+e4
+###        b   c     d   e
+### aa   0.0 NaN   3.0 NaN
+### bb   6.0 NaN   9.0 NaN
+### cc  12.0 NaN  15.0 NaN
+### gg   NaN NaN   NaN NaN
