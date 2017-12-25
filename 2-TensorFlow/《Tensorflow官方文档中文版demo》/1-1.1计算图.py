@@ -33,4 +33,3 @@ with tf.Session() as sess:
         b4 = sess.run([b3])
         print(a4)
 ## 目前支持设备： "/cpu:0":机器的CPU ；"/gpu:0":机器第一个GPU，如果有的话 ; "/gpu:1":机器的第二个GPU 以此类推
-        
