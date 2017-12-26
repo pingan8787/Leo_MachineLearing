@@ -1,9 +1,5 @@
 import numpy as np
 import pandas as pd
-
-df_pk10 = pd.read_csv('./txt/pk10.csv')
-df_pk10 = df_pk10[:100]    # 先拿1000条数据
-
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from dateutil import parser
@@ -12,6 +8,8 @@ from dateutil import parser
 from pylab import mpl
 mpl.rcParams['font.sans-serif'] = ['SimHei']
 
+df_pk10 = pd.read_csv('./txt/pk10.csv')
+df_pk10 = df_pk10[:100]    # 先拿1000条数据
 # print(df_pk10)
 
 # 这是是打算将每个开奖期号数据从str转成arr
