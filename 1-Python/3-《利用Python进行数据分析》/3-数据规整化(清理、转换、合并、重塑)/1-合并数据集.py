@@ -5,7 +5,8 @@ import pandas as pd
 
 
 ## 1、pandas.merge 根据一个或多个键 将不同DataFrame中的行连接起来。
-## 数据库风格的DataFrame合并
+## 数据库风格的DataFrame合并     还可以查看：https://www.cnblogs.com/HixiaoDi/p/7739863.html
+### 数据集的合并（merge）或连接（join）运算是通过一个或多个键将行连接在一起。
 a1 = DataFrame({'key':['b','b','a','c','a','a','b'],'d1':range(7)})
 a2 = DataFrame({'key':['a','b','c'],'d2':range(3)})
 ### 这是中多对一的合并，a1有多个标记为a和b的行，而a2的key列每个值则对应一行，使用merge即：
