@@ -85,3 +85,12 @@ h1 = np.array([5,10,15,20])
 print(h1.max())                     # 5
 print(h1.min())                     # 20
 ## 了解更多属性  print(help(np.array))
+
+# 10、指定维度计算
+i1 = np.array([
+    [5,10,15],
+    [20,25,30],
+    [30,35,40]
+])
+i2 = i1.sum(axis = 1)                    # array([ 30,  75, 105]) 若axis=1 则按行计算每一行的和
+i3 = i1.sum(axis = 0)                    # array([55, 70, 85])    若axis=0 则按列计算每一列的和
