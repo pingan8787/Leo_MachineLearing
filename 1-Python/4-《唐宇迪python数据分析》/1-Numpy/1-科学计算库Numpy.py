@@ -127,3 +127,24 @@ array([[[1, 1, 1, 1],
         [1, 1, 1, 1],
         [1, 1, 1, 1]]])
 '''
+
+# 14、arange数据间隔
+k3 = np.arange( 10,30,5 )                 #  array([10, 15, 20, 25])
+# 介绍 np.arange(start,end,skip) 开始，结束，跳过  且不包含end值
+k4 = np.arange(12).reshape(4,3)
+'''
+array([[ 0,  1,  2],
+       [ 3,  4,  5],
+       [ 6,  7,  8],
+       [ 9, 10, 11]])
+'''
+
+# 15、随机数的使用
+l1 = np.random.random((2,3))              # 随机数返回的是矩阵，这里设置矩阵结构
+'''
+array([[ 0.25731809,  0.14592857,  0.1125052 ],
+       [ 0.94415331,  0.46446762,  0.26658256]])
+'''
+from numpy import pi
+l2 = np.linspace( 0, 2*pi, 100)           # np.linspace(start,end,total)
+## linspace生成的是从start到end中平均取total个数据
