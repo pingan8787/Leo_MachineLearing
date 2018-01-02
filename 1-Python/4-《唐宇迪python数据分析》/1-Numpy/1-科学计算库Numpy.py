@@ -73,8 +73,15 @@ f1 = np.array([5,10,15,20])
 f2 = (f1 == 10) & (f1 == 5)        # 与 操作 array([False, False, False, False], dtype=bool)
 f3 = (f1 == 10) | (f1 == 5)        # 或 操作 array([ True,  True, False, False], dtype=bool)
 
-# 改变numpy.array的数据类型
+# 8、改变numpy.array的数据类型
 g1 = np.array(['1','2','3'])
 g2 = g1.astype(float)
 print(g1.dtype)                    #  <U1
 print(g2.dtype)                    #  float64
+print(g2)                          #  array([ 1.,  2.,  3.])
+
+# 9、最小值最大值
+h1 = np.array([5,10,15,20])
+print(h1.max())                     # 5
+print(h1.min())                     # 20
+## 了解更多属性  print(help(np.array))
