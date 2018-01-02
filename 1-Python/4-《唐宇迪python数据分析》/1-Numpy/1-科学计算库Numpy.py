@@ -47,7 +47,34 @@ d2 = np.array([
 ])
 print(d2[:,1])                    # [10 25 35] 切片切取整个数据结构的下标为1的列
 
+# 6、对Numpy结构一次操作会同步给每一个
+e1 = np.array([5,10,15,20])
+## 如进行一个判断操作，就可以对每个对象进行相同操作，就不用for循环
+print(e1 == 10)                      # array([False,  True, False, False], dtype=bool)
+e2 = np.array([
+    [5,10,15],
+    [20,25,30],
+    [30,35,40]
+])
+print(e2 == 10)
+'''
+array([[False,  True, False],
+       [False, False, False],
+       [False, False, False]], dtype=bool)
+'''
+## 将判断的布尔值作为参数传入数据对象
+e3 = (e1 == 10)
+print(e1[e3])                     # [10]
+e4 = (e2[:,1] == 25)
+print(e2[e4,:])                   # [[20,25,30]]
 
+# 7、或 与 操作
+f1 = np.array([5,10,15,20])
+f2 = (f1 == 10) & (f1 == 5)        # 与 操作 array([False, False, False, False], dtype=bool)
+f3 = (f1 == 10) | (f1 == 5)        # 或 操作 array([ True,  True, False, False], dtype=bool)
 
-
-
+# 改变numpy.array的数据类型
+g1 = np.array(['1','2','3'])
+g2 = g1.astype(float)
+print(g1.dtype)                    #  <U1
+print(g2.dtype)                    #  float64
