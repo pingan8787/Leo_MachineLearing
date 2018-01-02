@@ -148,3 +148,30 @@ array([[ 0.25731809,  0.14592857,  0.1125052 ],
 from numpy import pi
 l2 = np.linspace( 0, 2*pi, 100)           # np.linspace(start,end,total)
 ## linspace生成的是从start到end中平均取total个数据
+
+# 16、数学算术  对应位置进行操作
+m1 = np.array( [20,30,40,50] )             # array([20, 30, 40, 50])
+m2 = np.array( 4 )                         # array(4)
+m3 = m1 - m2                               # array([16, 26, 36, 46])
+m4 = m3 - 1                                # array([15, 25, 35, 45])
+m5 = m2 ** 2                               # 16
+m6 = m1 < 35                               # array([ True,  True, False, False], dtype=bool)
+
+# 17、矩阵乘法
+n1 = np.array([[1,1],[0,1]])
+n2 = np.array([[2,0],[3,4]])
+n3 = n1 * n2                                # 直接相乘： 对应位置数值相乘
+'''
+array([[2, 0],
+       [0, 4]])
+'''
+n4 = n1.dot(n2)                              # 矩阵乘法1
+'''
+array([[5, 4],
+       [3, 4]])
+'''
+n5 = np.dot(n1,n2)                            # 矩阵乘法2
+'''
+array([[5, 4],
+       [3, 4]])
+'''
