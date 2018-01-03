@@ -247,3 +247,14 @@ p8 = np.hsplit(p7,(3,4))            # 指定切分的位置( 3,4 )
 
 p9 = np.floor(10*np.random.random((12,2)))
 p10 = np.vsplit(p9,3)                # vsplit()纵向切割  平均分成3份
+
+
+# 20、 复制的三种方法
+## 第一种
+q1 = np.arange(12)
+q2 = q1
+print(q2 is p1)                    # False
+q2.shape = 3,4
+print(q1.shape)                    # (3, 4)
+print(id(q1))                      # 1410862548912
+print(id(q2))                      # 1410862548912
