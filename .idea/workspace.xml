@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/1-Numpy/1-科学计算库Numpy.py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/1-Numpy/1-科学计算库Numpy.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="1-科学计算库Numpy.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/1-Numpy/1-科学计算库Numpy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+            <state relative-caret-position="347">
+              <caret line="248" column="59" lean-forward="true" selection-start-line="248" selection-start-column="59" selection-end-line="248" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -191,8 +190,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/1-Numpy/1-科学计算库Numpy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+        <state relative-caret-position="347">
+          <caret line="248" column="59" lean-forward="true" selection-start-line="248" selection-start-column="59" selection-end-line="248" selection-end-column="59" />
           <folding />
         </state>
       </provider>
