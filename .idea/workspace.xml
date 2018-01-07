@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/1-Numpy/1-科学计算库Numpy.py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/1-Numpy/1-科学计算库Numpy.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-科学计算库Numpy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1-科学计算库Numpy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/1-Numpy/1-科学计算库Numpy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="333" column="3" lean-forward="true" selection-start-line="333" selection-start-column="3" selection-end-line="333" selection-end-column="3" />
+            <state relative-caret-position="57">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-数据处理工具Pandas.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/2-Pandas/1-数据处理工具Pandas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -36,6 +45,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>[20,30</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -43,6 +57,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/1-Numpy/1-科学计算库Numpy.py" />
+        <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/2-Pandas/1-数据处理工具Pandas.py" />
       </list>
     </option>
   </component>
@@ -99,7 +114,7 @@
               <item name="Leo_MachineLearing" type="462c0819:PsiDirectoryNode" />
               <item name="1-Python" type="462c0819:PsiDirectoryNode" />
               <item name="4-《唐宇迪python数据分析》" type="462c0819:PsiDirectoryNode" />
-              <item name="1-Numpy" type="462c0819:PsiDirectoryNode" />
+              <item name="2-Pandas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,8 +230,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/1-Numpy/1-科学计算库Numpy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="333" column="3" lean-forward="true" selection-start-line="333" selection-start-column="3" selection-end-line="333" selection-end-column="3" />
+        <state relative-caret-position="57">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/2-Pandas/1-数据处理工具Pandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
           <folding />
         </state>
       </provider>
