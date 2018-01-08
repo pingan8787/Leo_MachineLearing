@@ -18,3 +18,6 @@ print( pk10.loc[arr1] )    # 获取指定的多个索引的值
 print( pk10['date'] )     # 获取单个列
 arr2 = ['date','section']# 需要先组成 list 结构
 print( pk10[arr2] )        # 获取多个列
+
+## 获取所有列名
+col_names = pk10.columns.tolist()
