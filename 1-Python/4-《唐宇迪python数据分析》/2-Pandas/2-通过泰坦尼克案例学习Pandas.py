@@ -64,3 +64,56 @@ new_titanic = titanic.dropna(axis=0,subset=["Age","Sex"])
 
 ## 4、定位具体坐标上面的数据值
 row_83_age= titanic.loc[83,"Age"]    # loc[ 行, 列 ]
+
+## 5、重新设置index 用 reset_index( drop=True)
+new_titanic_survival = titanic.sort_values("Age",ascending = False)
+titanic_reindexed = new_titanic_survival.reset_index( drop=True )
+print(titanic_reindexed.loc[0:10])
+
+## 6、自定义函数
+### 返回第100个数据
+def hundredth_row(column):
+    hundredth_item = column.loc[99]
+    return hundredth_item
+hundredth_row = titanic.apply(hundredth_row)   # 用apply函数来执行 titanic相当于参数column
+
+### 计算所有空值的数量
+def not_null_count(column):
+    column_null = pd.isnull(column)
+    null = column[column_null]
+    return len(null)
+column_null_count = titanic.apply(not_null_count)
+
+### 更改船舱等级
+def which_class(row):
+    pclass = row["Pclass"]
+    if pd.isnull(pclass):
+        return "Unknow"
+    elif pclass == 1:
+        return "Frist Class"
+    elif pclass == 2:
+        return "Second Class"
+    elif pclass == 3:
+        return "Third Class"
+classes = titanic.apply(which_class,axis=1)
+
+### 将连续值转换成离散值
+def is_minor(row):
+    if row["Age"] < 18:
+        return True
+    else:
+        return False
+minors = titanic.apply(is_minor,axis=1)
+def generate_age_label(row):
+    age = row["Age"]
+    if pd.isnull(age):
+        return "unknow"
+    elif age < 18:
+        return "minor"
+    else:
+        return "adult"
+age_labels = titanic.apply(generate_age_label,axis=1)
+
+### 计算成年人和未成年人获救的关系
+titanic['age_labels'] = age_labels
+age_group_survival = titanic.pivot_table(index="age_labels",values="Survived")
