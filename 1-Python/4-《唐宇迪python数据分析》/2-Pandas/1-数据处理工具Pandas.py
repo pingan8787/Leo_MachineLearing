@@ -21,3 +21,26 @@ print( pk10[arr2] )        # 获取多个列
 
 ## 获取所有列名
 col_names = pk10.columns.tolist()
+
+# 3、算术运算  对指定列的所有数据
+print( pk10['section'] + 100 )
+print( pk10['section'] - 100 )
+print( pk10['section'] * 100 )
+print( pk10['section'] / 100 )
+## 两个相同列的算术运算 维度一样就会找对应位置的值计算
+print( pk10['section'] + pk10['date'] )
+print( pk10['section'] - pk10['date'] )
+print( pk10['section'] * pk10['date'] )
+print( pk10['section'] / pk10['date'] )
+## 添加一个新的列
+new_list = pk10['section'] / 100
+pk10['newlist'] = new_list
+
+# 4、常用函数
+## 查找某一列最大值
+print( pk10['section'].max() )
+print( pk10['section'] / pk10['section'].max() )
+
+## 排序
+pk10.sort_values('section',inplace=True)    # inplace：表示是否在原DataFrame里面排序，false则是在新DataFrame里面排序
+pk10.sort_vlaues('section',inplace=True,ascending=False)   #  ascending表示排序方法，排序默认升序，值为False为降序
