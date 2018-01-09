@@ -27,7 +27,7 @@ age_is_null = pd.isnull(age)      # isnull()  判断当前值是否是缺失值
 age_null_true = age[age_is_null]  # 过滤只有True的数据
 age_null_count = len(age_null_true) # 缺失值的数量
 
-## 处理缺失值  计算年龄平均值
+## 1、计算年龄平均值处理缺失值
 mean_age = sum(titanic['Age'])/len(titanic['Age'])  # NAN 若没有过滤nan值就会出现这样的错误
 
 ##  计算方法1
@@ -37,7 +37,7 @@ mean_age = sum(good_ages)/len(good_ages)             # 正确计算平均值
 ## 计算方法2
 mean_age = titanic['Age'].mean()
 
-## 计算每个等级票价均值
+## 2、计算每个等级票价均值
 ### 方法1
 passenger_classes = [1,2,3]
 fares_by_class = {}
@@ -57,3 +57,10 @@ print(passenger_survival)
 passenger_age = titanic.pivot_table(index="Pclass",values="Age")  # aggfunc默认按照np.mean计算平均值
 #### 判断一个量和两个量的关系 当前登船地方和票价还有是否被救的关系
 port_stats = titanic.pivot_table(index="Embarked",values=["Fare","Survived"],aggfunc=np.sum)
+
+## 3、删除所有缺失值 dorpna函数
+drop_no = titanic.dropna(axis = 1)
+new_titanic = titanic.dropna(axis=0,subset=["Age","Sex"])
+
+## 4、定位具体坐标上面的数据值
+row_83_age= titanic.loc[83,"Age"]    # loc[ 行, 列 ]
