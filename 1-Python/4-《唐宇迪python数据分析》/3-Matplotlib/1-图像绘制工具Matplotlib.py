@@ -33,8 +33,31 @@ plt.show()
 
 import numpy as np
 fig = plt.figure(figsize = (8,6))   # figure的figsize=(w,h) 表示绘图区域的宽高
-ax1 = fig.add_subplot(2,1,1)
-ax2 = fig.add_subplot(2,1,2)
+ax1 = fig.add_subplot(2,1,1)        # 子图1
+ax2 = fig.add_subplot(2,1,2)        # 子图2
 ax1.plot(np.random.randint(1,5,5), np.arange(5))
 ax2.plot(np.arange(10)*3, np.arange(10))
 plt.show()
+
+# 3、绘制多条颜色不同的折线
+## 绘制2条折线
+unrate["MONTH"] = unrate["DATE"].dt.month
+fig = plt.figure(figsize=(6,3))
+plt.plot(unrate[0:12]["MONTH"],unrate[0:12]["VALUE"] , c="red")     # plt.plot( x, y, color )
+plt.plot(unrate[12:24]["MONTH"],unrate[12:24]["VALUE"] , c="blue")
+plt.show()
+
+## 绘制多条
+fig = plt.figure(figsize=(10,6))
+colors = ["red","blue","green","orange","black"]
+for i in range(5):
+    start_index = i*12
+    end_index = (i+1)*12
+    subset = unrate[start_index:end_index]
+    labels = str(1948+i)    ##  绘制图例步骤1  设置图例内容
+    plt.plot(subset["MONTH"],subset["VALUE"],c=colors[i],label=labels)  ##  绘制图例步骤2  添加图例label
+plt.legend(loc="best")     ##  绘制图例步骤3  显示图例
+print(help(plt.legend))  # 查看loc的所有属性   loc 指图例摆放位置
+plt.show()
+
+# 4、绘制图例
