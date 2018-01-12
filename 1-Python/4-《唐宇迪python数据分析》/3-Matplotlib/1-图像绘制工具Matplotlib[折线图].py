@@ -60,4 +60,3 @@ plt.legend(loc="best")     ##  绘制图例步骤3  显示图例
 print(help(plt.legend))  # 查看loc的所有属性   loc 指图例摆放位置
 plt.show()
 
-# 4、绘制图例
