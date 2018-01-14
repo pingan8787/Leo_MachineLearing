@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/3-图像绘制工具Matplotlib[细节优化].py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/3-图像绘制工具Matplotlib[细节优化].py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="2-图像绘制工具Matplotlib[柱状图等].py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+            <state relative-caret-position="352">
+              <caret line="119" column="17" lean-forward="true" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
               <folding>
                 <element signature="e#9#28#0" expanded="true" />
               </folding>
@@ -28,21 +29,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3-图像绘制工具Matplotlib[细节优化].py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/3-图像绘制工具Matplotlib[细节优化].py">
+      <file leaf-file-name="1-图像绘制工具Seaborn[简单使用].py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="31" />
+              <folding>
+                <element signature="e#71#92#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-图像绘制工具Matplotlib[折线图].py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2-图像绘制工具Seaborn[调色板].py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/2-图像绘制工具Seaborn[调色板].py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="10" />
+              <folding>
+                <element signature="e#111#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-图像绘制工具Matplotlib[折线图].py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/1-图像绘制工具Matplotlib[折线图].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="409">
+              <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -54,8 +69,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -78,10 +93,12 @@
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/2-Pandas/3-数据处理工具Pandas[Series].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/3-图像绘制工具Matplotlib.py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/1-图像绘制工具Matplotlib.py" />
-        <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/1-图像绘制工具Matplotlib[折线图].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].ipynb" />
+        <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/1-图像绘制工具Matplotlib[折线图].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/3-图像绘制工具Matplotlib[细节优化].py" />
+        <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py" />
+        <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/2-图像绘制工具Seaborn[调色板].py" />
       </list>
     </option>
   </component>
@@ -140,7 +157,7 @@
               <item name="Leo_MachineLearing" type="462c0819:PsiDirectoryNode" />
               <item name="1-Python" type="462c0819:PsiDirectoryNode" />
               <item name="4-《唐宇迪python数据分析》" type="462c0819:PsiDirectoryNode" />
-              <item name="3-Matplotlib" type="462c0819:PsiDirectoryNode" />
+              <item name="4-Seaborn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,6 +208,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-104" width="1456" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2170487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -200,7 +218,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24734043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24734043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -220,7 +238,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -446,10 +466,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/1-图像绘制工具Matplotlib[折线图].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/3-图像绘制工具Matplotlib[细节优化].py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -461,19 +489,31 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+        <state relative-caret-position="352">
+          <caret line="119" column="17" lean-forward="true" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
           <folding>
             <element signature="e#9#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/1-图像绘制工具Matplotlib[折线图].py">
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="39" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#71#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/2-图像绘制工具Seaborn[调色板].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="e#111#132#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

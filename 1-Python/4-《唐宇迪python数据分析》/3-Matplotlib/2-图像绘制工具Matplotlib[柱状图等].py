@@ -107,13 +107,19 @@ plt.show()
 fig, ax = plt.subplots()
 ax.boxplot(norm_reviews["RT_user_norm"])  # ax.boxplot( )用来绘制盒图
 ax.set_xticklabels(["Rotten Tomatoes"])
+ax.tick_params(bottom="off", top="off", left="off", right="off")
 ax.set_ylim(0, 5)
 plt.show()
 
 # 9、多数据盒图( 四分图 )
 num_cols = ["RT_user_norm","Metacritic_user_nom","IMDB_norm","Fandango_Ratingvalue"]
 fig, ax = plt.subplots()
-ax.boxplot(norm_reviews[num_cols].values)  # ax.boxplot( )用来绘制盒图
+ax.boxplot(norm_reviews[num_cols].values,c=line1_color)  # ax.boxplot( )用来绘制盒图
 ax.set_xticklabels(num_cols,rotation=90)
+ax.tick_params(bottom="off", top="off", left="off", right="off")    # 去除对应位置的刻度线
 ax.set_ylim(0, 5)
 plt.show()
+
+# 10、设置折线等的颜色
+line1_color = (0/255,107/255,164,255)
+plt.plot(subset["MONTH"],subset["VALUE"],c=line1_color,label=labels)
