@@ -75,6 +75,45 @@ imdb_distribution = imdb_distribution.sort_index()
 ## 绘制图形
 fig, ax = plt.subplots()
 ax.hist(norm_reviews["Fandango_Ratingvalue"])
-# ax.hist(norm_reviews["Fandango_Ratingvalue"],bins=20)
-# ax.hist(norm_reviews["Fandango_Ratingvalue"],range=(4, 5),bins=20)
+# ax.hist(norm_reviews["Fandango_Ratingvalue"],bins=20)      # 指定 Bins 划分格子数量
+# ax.hist(norm_reviews["Fandango_Ratingvalue"],range=(4, 5),bins=20)  # range(x, y) 取x开始，y结束数据
+plt.show()
+
+# 7、绘制复杂的区间柱状图
+fig = plt.figure(figsize=(5,20))
+ax1 = fig.add_subplot(4,1,1)
+ax2 = fig.add_subplot(4,1,2)
+ax3 = fig.add_subplot(4,1,3)
+ax4 = fig.add_subplot(4,1,4)
+ax1.hist(norm_reviews["Fandango_Ratingvalue"],bins = 20, range=(0, 5))
+ax1.set_title("Distribution of Fandango Ratings")
+ax1.set_ylim(0,50)    # ax.set_ylim(x, y)  设置y轴坐标区间 x开始 y结束
+
+ax2.hist(norm_reviews["RT_user_norm"],bins = 20, range=(0, 5))
+ax2.set_title("Distribution of Rotten Tomatoes Ratings")
+ax2.set_ylim(0,50)
+
+ax3.hist(norm_reviews["Metacritic_user_nom"],bins = 20, range=(0, 5))
+ax3.set_title("Distribution of Metacritic Ratings")
+ax3.set_ylim(0,50)
+
+ax4.hist(norm_reviews["IMDB_norm"],bins = 20, range=(0, 5))
+ax4.set_title("Distribution of IMDB Ratings")
+ax4.set_ylim(0,50)
+
+plt.show()
+
+# 8、单数据盒图( 四分图 )
+fig, ax = plt.subplots()
+ax.boxplot(norm_reviews["RT_user_norm"])  # ax.boxplot( )用来绘制盒图
+ax.set_xticklabels(["Rotten Tomatoes"])
+ax.set_ylim(0, 5)
+plt.show()
+
+# 9、多数据盒图( 四分图 )
+num_cols = ["RT_user_norm","Metacritic_user_nom","IMDB_norm","Fandango_Ratingvalue"]
+fig, ax = plt.subplots()
+ax.boxplot(norm_reviews[num_cols].values)  # ax.boxplot( )用来绘制盒图
+ax.set_xticklabels(num_cols,rotation=90)
+ax.set_ylim(0, 5)
 plt.show()
