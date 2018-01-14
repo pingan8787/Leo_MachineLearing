@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="2-图像绘制工具Matplotlib[柱状图等].py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="371">
+              <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
               <folding>
                 <element signature="e#9#28#0" expanded="true" />
               </folding>
@@ -31,8 +32,8 @@
       <file leaf-file-name="1-图像绘制工具Matplotlib[折线图].py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/1-图像绘制工具Matplotlib[折线图].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="-399">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -80,8 +81,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1391" />
-    <option name="y" value="-25" />
+    <option name="x" value="1223" />
+    <option name="y" value="56" />
     <option name="width" value="1346" />
     <option name="height" value="697" />
   </component>
@@ -104,6 +105,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,7 +135,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,7 +182,7 @@
     <frame x="1358" y="-104" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21418338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2170487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -213,6 +214,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#9#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/1-图像绘制工具Matplotlib[折线图].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -419,24 +438,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/1-图像绘制工具Matplotlib[折线图].py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="-399">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="e#9#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+          <folding>
+            <element signature="e#9#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
