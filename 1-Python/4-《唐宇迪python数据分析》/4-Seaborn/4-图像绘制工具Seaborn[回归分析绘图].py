@@ -18,3 +18,7 @@ plt.show()
 # 2、绘图方式2 lmplot()
 sns.lmplot(x = "total_bill",y="tip",data=tips) # x x轴数据 y y轴数据 data 当前dataFrame
 plt.show()
+
+# 3、添加抖动值 x_jitter
+sns.regplot(x = "size",y="tip",data=tips ,x_jitter=.05)  # x_jitter 使得原始值随机增加发生浮动
+plt.show()

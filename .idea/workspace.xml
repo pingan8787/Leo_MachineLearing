@@ -4,7 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/1-Numpy/1-科学计算库Numpy.py" line="33" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="" />
+    <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3-图像绘制工具Seaborn[分析绘图].py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="3-图像绘制工具Seaborn[分析绘图].py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="45" />
+            <state relative-caret-position="409">
+              <caret line="74" column="67" lean-forward="false" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
               <folding>
                 <element signature="e#13#31#0" expanded="true" />
               </folding>
@@ -50,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4-图像绘制工具Seaborn[回归分析绘图].py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4-图像绘制工具Seaborn[回归分析绘图].py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="418">
+              <caret line="22" column="81" lean-forward="false" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -100,8 +103,8 @@
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/2-图像绘制工具Seaborn[调色板].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[单变量分析绘图].py" />
-        <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py" />
+        <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" />
       </list>
     </option>
   </component>
@@ -218,6 +221,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-104" width="1456" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21991403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -227,7 +231,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24734043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24734043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -532,22 +536,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py">
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="45" />
+        <state relative-caret-position="418">
+          <caret line="22" column="81" lean-forward="false" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
           <folding>
-            <element signature="e#13#31#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="409">
+          <caret line="74" column="67" lean-forward="false" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#13#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

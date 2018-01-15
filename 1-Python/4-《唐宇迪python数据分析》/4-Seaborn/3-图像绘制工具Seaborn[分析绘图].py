@@ -35,4 +35,42 @@ iris = sns.load_dataset("iris")
 sns.pairplot(iris)
 plt.show()
 
-# 二、回归分析绘图
+# ================================ #
+
+# 二、多变量分析绘图
+
+import numpy as np
+import pandas as pd
+from scipy import stats, integrate
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set(style="shitefrid",color_codes=True)
+
+np.random.seed(sum(map(ord,"categorical")))
+titanic = sns.load_dataset("titanic")
+tips = sns.load_dataset("tips")
+iris = sns.load_dataset("iris")
+
+# 1、绘制 stripplot 图
+sns.stripplot(x="day", y="total_bill",data=tips)   # 这样绘图 点太集中 不好分析
+sns.stripplot(x="day", y="total_bill",data=tips, jitter=True)   # 添加jitter 更适合分析
+plt.show()
+
+# 2、绘制 swarmplot 图
+sns.swarmplot(x="day", y="total_bill",data=tips, hue="sex")  # hue="sex" 绘制图例
+sns.swarmplot(x="total_bill", y="day",data=tips, hue="time")  # hue="time" 绘制图例
+plt.show()
+
+# 3、绘制 boxplot 图（盒图）
+## IQR即统计学概念四分位距，第一/四分位与第三/四分位之间的距离 如100个样本 则去25 和 75 之间距离
+## N = 1.5IQR 如果一个值>Q3+N 或 < Q1-N,则为离群点
+sns.boxplot(x="day", y="total_bill", hue="time", data=tips)
+plt.show()
+## 图中 单独的菱形点为离群点 上下横线代表最大最小值
+
+# 4、绘制 violinplot 图 （小提琴图）
+sns.violinplot(x="total_bill", y="day", hue="time", data=tips)
+plt.show()
+
+sns.violinplot(x="day", y="total_bill", hue="sex", data=tips,split=True)
+plt.show()
