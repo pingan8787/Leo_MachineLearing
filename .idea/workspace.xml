@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="3-图像绘制工具Seaborn[分析绘图].py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="10" />
+            <state relative-caret-position="257">
+              <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
               <folding>
                 <element signature="e#13#31#0" expanded="true" />
               </folding>
@@ -56,8 +55,8 @@
       <file leaf-file-name="4-图像绘制工具Seaborn[回归分析绘图].py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -104,6 +103,8 @@
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[单变量分析绘图].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py" />
+        <option value="H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/Seaborn-1Style.ipynb" />
+        <option value="H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/5-category.ipynb" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" />
       </list>
     </option>
@@ -221,6 +222,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-104" width="1456" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21991403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -230,7 +232,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24734043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24734043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -535,20 +537,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/Seaborn-3Var.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/Untitled.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/Seaborn-2Color.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/Seaborn-1Style.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/7-Heatmap.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/4-REG.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/6-FacetGrid.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/5-category.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="10" />
+        <state relative-caret-position="257">
+          <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
           <folding>
             <element signature="e#13#31#0" expanded="true" />
           </folding>

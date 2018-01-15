@@ -67,6 +67,10 @@ plt.show()
 sns.boxplot(x="day", y="total_bill", hue="time", data=tips)
 plt.show()
 ## 图中 单独的菱形点为离群点 上下横线代表最大最小值
+## 横型盒图绘制
+sns.boxplot(data=iris,orient="h")  # orient="h" 即指定横型
+plt.show()
+
 
 # 4、绘制 violinplot 图 （小提琴图）
 sns.violinplot(x="total_bill", y="day", hue="time", data=tips)
@@ -88,3 +92,45 @@ plt.show()
 ## 更好的描述变化差异
 sns.pointplot(x = "sex", y = "survived", hue="class", data=titanic)
 plt.show()
+## 比较好看的点图设置
+sns.pointplot(x="class", y="survived", hue="sex", data=titanic, palette={"male":"g","female":"m"},markers=["^","o"],linestyles=["-","--"])
+## palette调色板 markers 节点样式 linestyles 线条样式
+plt.show()
+
+# 8、绘制 factorplot 图 多层面板分类图
+sns.factorplot(x="day", y="total_bill", hue="smoker", data=tips)
+plt.show()
+
+sns.factorplot(x="day", y="total_bill", hue="smoker", data=tips, kind="bar")
+plt.show()
+
+sns.factorplot(x="day", y="total_bill", hue="smoker", data=tips,col="time", kind="swarm")
+plt.show()
+
+sns.factorplot(x="time", y="total_bill", hue="smoker", data=tips,col="day", kind="box", size=4, aspect=.5)
+## col 指定对比类型 aspect 长宽比
+plt.show()
+
+"""
+### Parameters： ###
+
+* x,y,hue 数据集变量 变量名
+* date 数据集 数据集名
+* row,col 更多分类变量进行平铺显示 变量名
+* col_wrap 每行的最高平铺数 整数
+* estimator 在每个分类中进行矢量到标量的映射 矢量
+* ci 置信区间 浮点数或None
+* n_boot 计算置信区间时使用的引导迭代次数 整数
+* units 采样单元的标识符，用于执行多级引导和重复测量设计 数据变量或向量数据
+* order, hue_order 对应排序列表 字符串列表
+* row_order, col_order 对应排序列表 字符串列表
+* kind : 可选：point 默认, bar 柱形图, count 频次, box 箱体, violin 提琴, strip 散点，swarm 分散点
+size 每个面的高度（英寸） 标量
+aspect 纵横比 标量
+orient 方向 "v"/"h"
+color 颜色 matplotlib颜色
+palette 调色板 seaborn颜色色板或字典
+legend hue的信息面板 True/False
+legend_out 是否扩展图形，并将信息框绘制在中心右边 True/False
+share{x,y} 共享轴线 True/False
+"""
