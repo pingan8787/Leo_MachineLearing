@@ -1,3 +1,5 @@
+## 网上文章 [点击打开](http://blog.csdn.net/ice_martin/article/details/61617053)
+
 ## Seaborn 是在 Matplotlib 基础上的封装，可以简单绘制出精美图像
 ## 安装 pip install seaborn
 

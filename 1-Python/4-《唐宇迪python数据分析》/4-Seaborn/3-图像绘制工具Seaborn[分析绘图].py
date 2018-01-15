@@ -74,3 +74,17 @@ plt.show()
 
 sns.violinplot(x="day", y="total_bill", hue="sex", data=tips,split=True)
 plt.show()
+
+# 5、多种图组合
+sns.violinplot(x="day", y="total_bill", data=tips, inner=None)
+sns.swarmplot(x="day", y="total_bill",data=tips, color="w", alpha=.5)
+plt.show()
+
+# 6、绘制 barplot 柱形图
+sns.barplot(x="sex", y="survived", hue="class",data=titanic)
+plt.show()
+
+# 7、绘制 pointplot 点图
+## 更好的描述变化差异
+sns.pointplot(x = "sex", y = "survived", hue="class", data=titanic)
+plt.show()
