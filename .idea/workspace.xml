@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/1-Numpy/1-科学计算库Numpy.py" line="33" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py" />
-    </list>
+    <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +53,8 @@
       <file leaf-file-name="4-图像绘制工具Seaborn[回归分析绘图].py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -159,20 +156,6 @@
               <item name="1-Python" type="462c0819:PsiDirectoryNode" />
               <item name="4-《唐宇迪python数据分析》" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Leo_MachineLearing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leo_MachineLearing" type="462c0819:PsiDirectoryNode" />
-              <item name="1-Python" type="462c0819:PsiDirectoryNode" />
-              <item name="4-《唐宇迪python数据分析》" type="462c0819:PsiDirectoryNode" />
-              <item name="3-Matplotlib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leo_MachineLearing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leo_MachineLearing" type="462c0819:PsiDirectoryNode" />
-              <item name="1-Python" type="462c0819:PsiDirectoryNode" />
-              <item name="4-《唐宇迪python数据分析》" type="462c0819:PsiDirectoryNode" />
-              <item name="4-Seaborn" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -223,7 +206,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-104" width="1456" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22277936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -646,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="133">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
