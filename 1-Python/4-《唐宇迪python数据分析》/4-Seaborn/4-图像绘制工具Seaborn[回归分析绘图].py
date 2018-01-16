@@ -22,3 +22,5 @@ plt.show()
 # 3、添加抖动值 x_jitter
 sns.regplot(x = "size",y="tip",data=tips ,x_jitter=.05)  # x_jitter 使得原始值随机增加发生浮动
 plt.show()
+
+## 更多用法 后续学习

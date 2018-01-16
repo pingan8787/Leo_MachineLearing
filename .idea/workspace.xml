@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py" afterPath="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="1-图像绘制工具Seaborn[简单使用].py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            <state relative-caret-position="342">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="10" />
               <folding>
                 <element signature="e#145#166#0" expanded="true" />
               </folding>
@@ -31,8 +32,8 @@
       <file leaf-file-name="2-图像绘制工具Seaborn[调色板].py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/2-图像绘制工具Seaborn[调色板].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1330">
-              <caret line="70" column="40" lean-forward="false" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+            <state relative-caret-position="342">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="10" />
               <folding>
                 <element signature="e#111#132#0" expanded="true" />
               </folding>
@@ -40,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3-图像绘制工具Seaborn[分析绘图].py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3-图像绘制工具Seaborn[分析绘图].py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+            <state relative-caret-position="409">
+              <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding>
                 <element signature="e#13#31#0" expanded="true" />
               </folding>
@@ -52,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4-图像绘制工具Seaborn[回归分析绘图].py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="4-图像绘制工具Seaborn[回归分析绘图].py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+            <state relative-caret-position="428">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -101,11 +102,11 @@
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/3-图像绘制工具Matplotlib[细节优化].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/2-图像绘制工具Seaborn[调色板].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[单变量分析绘图].py" />
-        <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py" />
         <option value="H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/Seaborn-1Style.ipynb" />
         <option value="H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/5-category.ipynb" />
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py" />
+        <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py" />
       </list>
     </option>
   </component>
@@ -140,7 +141,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,6 +177,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +225,7 @@
     <frame x="1358" y="-104" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21991403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22277936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -258,6 +259,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding>
+            <element signature="e#145#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/2-图像绘制工具Seaborn[调色板].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="70" column="40" lean-forward="false" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+          <folding>
+            <element signature="e#111#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+          <folding>
+            <element signature="e#13#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -517,26 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/2-图像绘制工具Seaborn[调色板].py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="70" column="40" lean-forward="false" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
-          <folding>
-            <element signature="e#111#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding>
-            <element signature="e#145#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/Seaborn-3Var.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -586,16 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://H:/虚拟现实/7、机器学习/1-视频学习/唐宇迪python数据分析/附件/唐宇迪-机器学习课程/Python库代码（4个）/4-可视化库Seaborn/5-category.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -603,12 +614,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="10" />
+          <folding>
+            <element signature="e#145#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/2-图像绘制工具Seaborn[调色板].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="10" />
+          <folding>
+            <element signature="e#111#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/3-图像绘制工具Seaborn[分析绘图].py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+        <state relative-caret-position="409">
+          <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding>
             <element signature="e#13#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
