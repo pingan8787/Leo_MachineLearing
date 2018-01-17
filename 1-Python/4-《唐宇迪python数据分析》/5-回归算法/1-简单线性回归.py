@@ -11,7 +11,7 @@ class LinearRegression():
     print(X.shape)
     X = np.insert(X, 0, 1, axis=1)
     print(X.shape)
-    X_ = np.linalg.inv(X.T.dot(X))   # X_ 表示处理完后的X值
+    X_ = np.linalg.inv(X.T.dot(X))   # X_ 表示处理完后的X值  .inv 取逆
     self.w = X_.dot(X.T).dot(y)
 
   def predict(self, X):
@@ -32,6 +32,7 @@ def main():
   X = diabetes.data[:, np.newaxis, 2]
   print(X.shape)
   # Split the data into training 使用这些数据做测试
+  # x_train, y_train 训练集  x_test,y_test 测试集
   x_train, x_test = X[:-20],X[-20:]
   y_train, y_test = diabetes.target[:-20],diabetes.target[-20:]
   clf = LinearRegression()
