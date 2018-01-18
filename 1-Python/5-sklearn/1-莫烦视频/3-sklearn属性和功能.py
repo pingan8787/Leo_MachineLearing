@@ -19,4 +19,5 @@ print(model.coef_)
 print(model.intercept_)
 print(model.get_params())  # 返回之前定义的参数  
 print(model.score(data_X, data_y))  # 使用R^2 coefficient of determination 对model学习进行打分，用data_X做预测 和 data_y进行对比
+# 返回的是百分比
 ## 参数介绍 http://sklearn.apachecn.org/cn/0.19.0/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression
