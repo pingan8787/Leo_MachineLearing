@@ -34,6 +34,12 @@ with tf.Session(graph=g1) as sess:
         # 在计算图g1中，变量v的取值应该为0，所以下面这行输出[0.]
         print(sess.run(tf.get_variable("v")))   # [ 0.]
 
+## 4、指定GPU设备运行
+g = tf.Graph()
+with g.device("/gpu:0"):
+    result = a+ b
+
+
 '''
 tensorflow程序通常被组织成一个图的构建和图的执行阶段。
 例如我们搭建一个神经网络，组织各个层及之间关系的过程称为图的构建，然后通过不断反复的执行图中的训练op来逐渐优化参数。
