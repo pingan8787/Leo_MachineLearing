@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/1-计算图.py" afterPath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/1-计算图.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/2-前向传播算法.py" afterPath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/3-前向传播算法.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +21,7 @@
       <file leaf-file-name="1-图像绘制工具Seaborn[简单使用].py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="589">
               <caret line="34" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="10" />
               <folding>
                 <element signature="e#145#166#0" expanded="true" />
@@ -55,7 +57,7 @@
       <file leaf-file-name="4-图像绘制工具Seaborn[回归分析绘图].py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="361">
               <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -64,21 +66,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1-计算图.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1-计算图.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/1-计算图.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="277">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-前向传播算法.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/2-前向传播算法.py">
+      <file leaf-file-name="2-数据模型张量.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/2-数据模型张量.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="23" column="78" lean-forward="true" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3-前向传播算法.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/3-前向传播算法.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,6 +170,7 @@
         <option value="$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py" />
         <option value="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/2-前向传播算法.py" />
         <option value="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/1-计算图.py" />
+        <option value="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/2-数据模型张量.py" />
       </list>
     </option>
   </component>
@@ -191,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,6 +232,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -268,7 +281,7 @@
     <frame x="-8" y="23" width="1382" height="753" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23600605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -302,16 +315,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/2-图像绘制工具Seaborn[调色板].py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="75" column="76" lean-forward="false" selection-start-line="75" selection-start-column="76" selection-end-line="75" selection-end-column="76" />
-          <folding>
-            <element signature="e#111#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/3-Matplotlib/2-图像绘制工具Matplotlib[柱状图等].py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -489,13 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/pk10.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/pk10.txt" />
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/2-Pandas/1-数据处理工具Pandas[DataFrame].py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -609,7 +606,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/1-图像绘制工具Seaborn[简单使用].py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="589">
           <caret line="34" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="10" />
           <folding>
             <element signature="e#145#166#0" expanded="true" />
@@ -627,17 +624,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/5-回归算法/1-简单线性回归.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/5-回归算法/1-简单线性回归.py" />
     <entry file="file://$PROJECT_DIR$/1-Python/4-《唐宇迪python数据分析》/4-Seaborn/4-图像绘制工具Seaborn[回归分析绘图].py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="361">
           <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -679,18 +669,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/2-前向传播算法.py">
+    <entry file="file://$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/3-前向传播算法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/1-计算图.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="277">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/2-数据模型张量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="23" column="78" lean-forward="true" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
           <folding />
         </state>
       </provider>
