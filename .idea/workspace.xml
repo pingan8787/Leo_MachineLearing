@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc5385b-7011-4042-b99d-c2c23a11be39" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/3-前向传播算法.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/1-计算图.py" afterPath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/1-TensorFlow计算模型-计算图.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/2-数据模型张量.py" afterPath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/2-TensorFlow数据模型-张量.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/3-前向传播算法.py" afterPath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/4-TensorFlow实现神经网络-前向传播算法.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/4-TensorFlow实现神经网络-前向传播算法.py" afterPath="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/4-TensorFlow实现神经网络-前向传播算法.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,8 +85,8 @@
       <file leaf-file-name="4-TensorFlow实现神经网络-前向传播算法.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/4-TensorFlow实现神经网络-前向传播算法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="57">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -171,6 +168,7 @@
         <option value="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/1-计算图.py" />
         <option value="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/2-数据模型张量.py" />
         <option value="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/3-TensorFlow运行模型-会话.py" />
+        <option value="$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/4-TensorFlow实现神经网络-前向传播算法.py" />
       </list>
     </option>
   </component>
@@ -688,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2-TensorFlow/《tensorflow实战google深度学习框架》demo/4-TensorFlow实现神经网络-前向传播算法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="57">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>
