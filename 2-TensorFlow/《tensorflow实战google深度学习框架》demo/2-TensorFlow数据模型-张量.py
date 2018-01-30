@@ -22,3 +22,5 @@ b = tf.constant([1.0, 2.0], name="b")
 result = a + b
 ### 没有使用张量
 result = tf.constant([1.0, 2.0], name="a") + tf.constant([1.0, 2.0], name="b")
+
+## 第二类用途   在计算图构造完成后用来获取计算结果
